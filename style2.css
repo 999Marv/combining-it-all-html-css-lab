@@ -28,19 +28,26 @@ li {
 
 /*main*/
 
+main {
+    padding: 0 30px;
+}
+
 h2 {
-    text-align: center;
     color: black;
-    padding: 20px 0;
+    padding: 20px 0 20px 20px;
 }
 
 div {
     background-color: #c4c4c4;
-    width: 70%;
-    max-width: 600px;
-    height: 400px;
-    padding: 0 30px;
-    margin: auto;
+    width: 350px;
+    height: 150px;
+}
+
+section {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 
@@ -50,8 +57,21 @@ div {
     h4 {
         display: none;
     }
-    
+
     ul {
         gap: 30px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    div {
+        width: 180px;
     }
 }
