@@ -39,8 +39,9 @@ h2 {
 
 div {
     background-color: #c4c4c4;
-    width: 350px;
+    flex: 1 350px;
     height: 150px;
+    max-width: 400px;
 }
 
 section {
@@ -72,6 +73,6 @@ section {
     }
     
     div {
-        width: 180px;
+        width: 240px;
     }
 }
